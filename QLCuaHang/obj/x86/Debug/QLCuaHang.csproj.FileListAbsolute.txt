@@ -12,3 +12,5 @@ C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienTh
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormMatHang.resources
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.csprojResolveAssemblyReference.cache
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.HoaDonBan.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.HoaDonNhap.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.TacGia.resources

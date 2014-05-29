@@ -85,6 +85,7 @@
             this.btnSuaHDB.TabIndex = 15;
             this.btnSuaHDB.Text = "Sửa";
             this.btnSuaHDB.UseVisualStyleBackColor = true;
+            this.btnSuaHDB.Click += new System.EventHandler(this.btnSuaHDB_Click);
             // 
             // btnXoaHDB
             // 
@@ -200,6 +201,7 @@
             this.btnSuaCTHDB.TabIndex = 12;
             this.btnSuaCTHDB.Text = "Sửa";
             this.btnSuaCTHDB.UseVisualStyleBackColor = true;
+            this.btnSuaCTHDB.Click += new System.EventHandler(this.btnSuaCTHDB_Click);
             // 
             // btnXoaCTHDB
             // 
@@ -218,6 +220,7 @@
             this.btnThemCTHDB.TabIndex = 10;
             this.btnThemCTHDB.Text = "Thêm";
             this.btnThemCTHDB.UseVisualStyleBackColor = true;
+            this.btnThemCTHDB.Click += new System.EventHandler(this.btnThemCTHDB_Click);
             // 
             // dtvCTHDB
             // 

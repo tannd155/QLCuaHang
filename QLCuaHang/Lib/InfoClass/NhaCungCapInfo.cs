@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLCuaHang.Lib.InfoClass
 {
-    class NhaCungCapInfo
+    public class NhaCungCapInfo
     {
         private string mancc;
 
@@ -20,6 +20,15 @@ namespace QLCuaHang.Lib.InfoClass
         {
             get { return tenncc; }
             set { tenncc = value; }
+        }
+        public NhaCungCapInfo()
+        {
+ 
+        }
+        public NhaCungCapInfo(string _mancc, string _tenncc)
+        {
+            this.mancc = _mancc;
+            this.tenncc = _tenncc;
         }
     }
 }

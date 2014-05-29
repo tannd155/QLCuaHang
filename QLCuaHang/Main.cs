@@ -69,5 +69,19 @@ namespace QLCuaHang
             f.Show();
             this.Visible = true;
         }
+
+        private void thêmHóaĐơnNhậpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            HienThi.HoaDonNhap f = new HienThi.HoaDonNhap();
+            f.Show();
+            this.Visible = true;
+        }
+
+        private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HienThi.TacGia f = new HienThi.TacGia();
+            f.Show();
+            this.Visible = true;
+        }
     }
 }

@@ -82,13 +82,28 @@
     <Compile Include="HienThi\HoaDonBan.Designer.cs">
       <DependentUpon>HoaDonBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="HienThi\HoaDonNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\HoaDonNhap.Designer.cs">
+      <DependentUpon>HoaDonNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\TacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\TacGia.Designer.cs">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lib\Controllers\HoaDonController.cs" />
+    <Compile Include="Lib\Controllers\HoaDonNhapController.cs" />
     <Compile Include="Lib\Controllers\KhachHangController.cs" />
     <Compile Include="Lib\Controllers\LoaiHangController.cs" />
     <Compile Include="Lib\Controllers\MatHangController.cs" />
     <Compile Include="Lib\Controllers\NhaCungCapController.cs" />
     <Compile Include="Lib\Controllers\PhieuBaoHanhController.cs" />
     <Compile Include="Lib\InfoClass\CTHoaDonBanInfo.cs" />
+    <Compile Include="Lib\InfoClass\CTHoaDonNhapInfo.cs" />
+    <Compile Include="Lib\InfoClass\HoaDonNhapInfo.cs" />
     <Compile Include="Lib\InfoClass\KhachHangInfo.cs" />
     <Compile Include="Lib\InfoClass\LoaiHangInfo.cs" />
     <Compile Include="Lib\InfoClass\MatHangInfo.cs" />
@@ -96,6 +111,7 @@
     <Compile Include="Lib\InfoClass\PhieuBaoHanhInfo.cs" />
     <Compile Include="Lib\InfoClass\HoaDonBanInfo.cs" />
     <Compile Include="Lib\Models\HoaDonModel.cs" />
+    <Compile Include="Lib\Models\HoaDonNhapModel.cs" />
     <Compile Include="Lib\Models\KhachHangModel.cs" />
     <Compile Include="Lib\Models\LoaiHangModel.cs" />
     <Compile Include="Lib\Models\MatHangModel.cs" />
@@ -127,6 +143,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HienThi\HoaDonBan.resx">
       <DependentUpon>HoaDonBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\HoaDonNhap.resx">
+      <DependentUpon>HoaDonNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\TacGia.resx">
+      <DependentUpon>TacGia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
