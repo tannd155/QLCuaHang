@@ -46,14 +46,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="HienThi\FormKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="HienThi\FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\FormLoaiHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\FormLoaiHang.Designer.cs">
+      <DependentUpon>FormLoaiHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\FormMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\FormMatHang.Designer.cs">
+      <DependentUpon>FormMatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\FormNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\FormNhaCungCap.Designer.cs">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\FormPhieuBaoHanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\FormPhieuBaoHanh.Designer.cs">
+      <DependentUpon>FormPhieuBaoHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\HoaDonBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\HoaDonBan.Designer.cs">
+      <DependentUpon>HoaDonBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Controllers\HoaDonController.cs" />
+    <Compile Include="Lib\Controllers\KhachHangController.cs" />
+    <Compile Include="Lib\Controllers\LoaiHangController.cs" />
+    <Compile Include="Lib\Controllers\MatHangController.cs" />
+    <Compile Include="Lib\Controllers\NhaCungCapController.cs" />
+    <Compile Include="Lib\Controllers\PhieuBaoHanhController.cs" />
+    <Compile Include="Lib\InfoClass\CTHoaDonBanInfo.cs" />
+    <Compile Include="Lib\InfoClass\KhachHangInfo.cs" />
+    <Compile Include="Lib\InfoClass\LoaiHangInfo.cs" />
+    <Compile Include="Lib\InfoClass\MatHangInfo.cs" />
+    <Compile Include="Lib\InfoClass\NhaCungCapInfo.cs" />
+    <Compile Include="Lib\InfoClass\PhieuBaoHanhInfo.cs" />
+    <Compile Include="Lib\InfoClass\HoaDonBanInfo.cs" />
+    <Compile Include="Lib\Models\HoaDonModel.cs" />
+    <Compile Include="Lib\Models\KhachHangModel.cs" />
+    <Compile Include="Lib\Models\LoaiHangModel.cs" />
+    <Compile Include="Lib\Models\MatHangModel.cs" />
+    <Compile Include="Lib\Models\MyDataLayer.cs" />
+    <Compile Include="Lib\Models\NhaCungCapModel.cs" />
+    <Compile Include="Lib\Models\PhieuBaoHanhModel.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HienThi\FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\FormLoaiHang.resx">
+      <DependentUpon>FormLoaiHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\FormMatHang.resx">
+      <DependentUpon>FormMatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\FormNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\FormPhieuBaoHanh.resx">
+      <DependentUpon>FormPhieuBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\HoaDonBan.resx">
+      <DependentUpon>HoaDonBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -73,6 +150,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

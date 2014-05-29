@@ -1,0 +1,14 @@
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\bin\Debug\QLCuaHang.exe
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\bin\Debug\QLCuaHang.pdb
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormKhachHang.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.Main.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.Properties.Resources.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.csproj.GenerateResource.Cache
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.exe
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.pdb
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormPhieuBaoHanh.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormLoaiHang.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormNhaCungCap.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.FormMatHang.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.csprojResolveAssemblyReference.cache
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.HoaDonBan.resources
