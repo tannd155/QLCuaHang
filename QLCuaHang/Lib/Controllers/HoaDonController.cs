@@ -17,6 +17,10 @@ namespace QLCuaHang.Lib.Controllers
         {
             return hdm.LayDSCTHDB();
         }
+        public DataTable TimTheoNgay(DateTime TuNgay, DateTime DenNgay)
+        {
+            return hdm.TimTheoNgay(TuNgay, DenNgay);
+        }
         public int ThemHDB(InfoClass.HoaDonBanInfo hdb)
         {
             return hdm.ThemHoaDonBan(hdb);

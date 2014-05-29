@@ -18,6 +18,12 @@ namespace QLCuaHang.Lib.Models
             string query = @"SELECT * FROM CTHoaDonNhap";
             return MyDataLayer.CreateDataTable(query);
         }
+
+        public DataTable TimTheoNgay(DateTime TuNgay, DateTime DenNgay)
+        {
+            string query = @"SELECT * FROM HoaDonNhap WHERE NgayNhap between '" + Convert.ToDateTime(TuNgay).ToString("yyyy-MM-dd") + "' and '" + Convert.ToDateTime(DenNgay).ToString("yyyy-MM-dd") + "'";
+            return MyDataLayer.CreateDataTable(query);
+        }
         public int ThemHoaDonNhap(InfoClass.HoaDonNhapInfo hdn)
         {
             try

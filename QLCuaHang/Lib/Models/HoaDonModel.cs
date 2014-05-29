@@ -13,9 +13,16 @@ namespace QLCuaHang.Lib.Models
             string query = @"SELECT * FROM HoaDonBan";
             return MyDataLayer.CreateDataTable(query);
         }
+        
         public DataTable LayDSCTHDB()
         {
             string query = @"SELECT * FROM CTHoaDonBan";
+            return MyDataLayer.CreateDataTable(query);
+        }
+
+        public DataTable TimTheoNgay(DateTime TuNgay, DateTime DenNgay)
+        {
+            string query = @"SELECT * FROM HoaDonBan WHERE NgayBan between '" + Convert.ToDateTime(TuNgay).ToString("yyyy-MM-dd") + "' and '" + Convert.ToDateTime(DenNgay).ToString("yyyy-MM-dd") + "'";
             return MyDataLayer.CreateDataTable(query);
         }
         public int ThemHoaDonBan(InfoClass.HoaDonBanInfo hdb)

@@ -83,5 +83,12 @@ namespace QLCuaHang
             f.Show();
             this.Visible = true;
         }
+
+        private void thốngKêHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HienThi.ThongKeHoaDon f = new HienThi.ThongKeHoaDon();
+            f.Show();
+            this.Visible = true;
+        }
     }
 }

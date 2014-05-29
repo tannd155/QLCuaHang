@@ -14,3 +14,4 @@ C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.csproj
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.HoaDonBan.resources
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.HoaDonNhap.resources
 C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.TacGia.resources
+C:\Users\Tan\Documents\GitHub\QLCuaHang\QLCuaHang\obj\x86\Debug\QLCuaHang.HienThi.ThongKeHoaDon.resources
